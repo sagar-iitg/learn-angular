@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav .link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.nav .link:hover {
+  text-decoration: underline;
+}
