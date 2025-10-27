@@ -1,0 +1,11 @@
+<h2>Product List</h2>
+
+<div *ngIf="loading">Loading products...</div>
+
+<ul *ngIf="!loading">
+  <li *ngFor="let p of products">
+    <img [src]="p.image" width="50" alt="{{ p.title }}" />
+    <strong>{{ p.title }}</strong> — ₹{{ p.price }}
+  </li>
+</ul>
+
